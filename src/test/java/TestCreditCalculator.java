@@ -16,7 +16,7 @@ public class TestCreditCalculator {
 
         Assert.assertTrue(
             String.format("Wrong monthly payment.\nExpected: %d\nGot: %d\n", expected, result),
-    result == expected
+            result == expected
         );
     }
 
@@ -27,7 +27,7 @@ public class TestCreditCalculator {
 
         Assert.assertTrue(
             String.format("Wrong total sum.\nExpected: %d\nGot: %d\n", expected, result),
-    result == expected
+            result == expected
         );
     }
 
@@ -38,7 +38,7 @@ public class TestCreditCalculator {
 
         Assert.assertTrue(
             String.format("Wrong total overpayment.\nExpected: %d\nGot: %d\n", expected, result),
-    result == expected
+            result == expected
         );
     }
 }
